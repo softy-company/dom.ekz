@@ -52,9 +52,9 @@ createBtn.addEventListener("click", () => {
   add();
 
 
-  if(nameInput.value.trim() === "" || emailInput.value.trim() === ""|| imgInput.value.trim() === "" ) {
-    alert("Please enter")
-  }
+//   if(nameInput.value.trim() === "" || emailInput.value.trim() === ""|| imgInput.value.trim() === "" ) {
+//     alert("Please enter")
+//   }
 });
 
 
