@@ -4,6 +4,9 @@ const imgInput = document.querySelector(".img");
 const readBtn = document.querySelector(".read");
 const createBtn = document.querySelector(".create");
 const block = document.querySelector(".hero-block");
+const xButton = document.querySelector(".xButton");
+
+
 
 function view() {
   let data = JSON.parse(localStorage.getItem("data")) || [];
@@ -32,6 +35,10 @@ createBtn.addEventListener("click", () => {
 
 readBtn.addEventListener("click", () => {
   block.style.display = "inline-flex";
+  let xBtn = document.createElement("button")
+  xBtn.classList.add("x");
+  xButton.appendChild(xBtn);
+  xBtn.innerHTML = "X"
 });
 
 function add() {
