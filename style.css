@@ -88,6 +88,8 @@ h3{
     border: none;
     color: #fff;
 }
+
+
 @media(max-width:500px){
     .hero{
         flex-direction: column;

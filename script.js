@@ -29,9 +29,43 @@ function view() {
   });
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 createBtn.addEventListener("click", () => {
   add();
+
+
+  if(nameInput.value.trim() === "" || emailInput.value.trim() === ""|| imgInput.value.trim() === "" ) {
+    alert("Please enter")
+  }
 });
+
+
+
+
+
+
+
+
+
+
 
 readBtn.addEventListener("click", () => {
   block.style.display = "inline-flex";
@@ -40,6 +74,24 @@ readBtn.addEventListener("click", () => {
   xButton.appendChild(xBtn);
   xBtn.innerHTML = "X"
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function add() {
   let data = JSON.parse(localStorage.getItem("data")) || [];
@@ -55,6 +107,29 @@ function add() {
 
   view();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function deleteItem(index) {
   let data = JSON.parse(localStorage.getItem("data")) || [];
