@@ -52,9 +52,14 @@ createBtn.addEventListener("click", () => {
   add();
 
 
-//   if(nameInput.value.trim() === "" || emailInput.value.trim() === ""|| imgInput.value.trim() === "" ) {
-//     alert("Please enter")
-//   }
+  // if(nameInput.value.trim() === "" || emailInput.value.trim() === ""|| imgInput.value.trim() === "" ) {
+  //   alert("Заполните поле")
+  //   block.innerHTML = ""
+  //   localStorage.clear()
+  //   // for(let i = 0; i < localStorage; i++) {
+  //   //   localStorage.clear()
+  //   // }
+  // }
 });
 
 
