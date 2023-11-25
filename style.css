@@ -33,7 +33,7 @@ input{
     width: 300px;
     height: 40px;
 }
-button{
+.hero-nav button{
     padding: 8px 20px;
     border-radius: 10px;
     background: #f72585;
@@ -81,6 +81,13 @@ h3{
     right: 270px;
     /* bottom: 0; */
 }
+.info button{
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: #f72585;
+    border: none;
+    color: #fff;
+}
 @media(max-width:500px){
     .hero{
         flex-direction: column;
@@ -94,7 +101,15 @@ h3{
 
     }
     .info{
-        width: 200px;
+        width: 250px;
+    }
+    .info-nav h3{
+        font-size: 10px;
+    }  
+     .info button{
+    padding: 4px 5px;
+        font-size: 10px;
+        /* padding: 4px 0; */
     }
      input{
 width: 200px;
